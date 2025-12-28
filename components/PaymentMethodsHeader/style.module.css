@@ -1,0 +1,751 @@
+.header {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bitcoin_container {
+    background: linear-gradient(to right, rgb(15 23 42), rgb(88 28 135 / 0.6), rgb(15 23 42));
+    padding: 20px 10px;
+    margin-bottom: 0px;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3);
+  }
+  
+  .bitcoin_header {
+    font-family: var(--work-sans);
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(to right, rgb(52 211 153), rgb(34 211 238));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+  .main_wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text_wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 14.41px;
+    margin-left: 12px;
+  }
+  
+  .text_wrapper span svg {
+    color: #ffff;
+    margin-right: 4px;
+  }
+  
+  .text_wrapper p {
+    font-family: var(--work-sans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.9269px;
+    line-height: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  .text_wrapper button {
+    display: none;
+  }
+  
+  .text_wrapper button svg {
+    color: #ffff;
+  }
+  
+  .user_Account {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+  .mobo_checkout_button {
+    font-size: 16px;
+    line-height: 17px;
+    white-space: nowrap;
+    color: #fff;
+    border-radius: 9px;
+    padding: 15px 25px;
+    border: 1.4px solid #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 35px;
+  }
+  .user_Account h6 a {
+    font-family: var(--work-sans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.9269px;
+    line-height: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+  
+  .user_Account span svg {
+    color: #ffffff;
+    margin-left: 6px;
+  }
+  
+  .navigation {
+    /* margin-top: 7.59px; */
+    background: #000000;
+  }
+  
+  .nav_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* menu style */
+  
+  .menu {
+  }
+  
+  .menu ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu ul li {
+    position: relative;
+  }
+  
+  .menu ul li:not(:first-child) {
+    padding-left: 25px;
+  }
+  
+  .menu ul li:not(:last-child) {
+    padding-right: 25px;
+  }
+  .menu ul li button,
+  .menu ul li a {
+    font-family: var(--work-sans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.2556px;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all 350ms ease 0s;
+  }
+  .menu ul li:hover a,
+  .menu ul li.active a {
+    font-weight: 700;
+  }
+  .menu ul .submenu_list {
+    position: absolute;
+    display: block;
+    min-width: 99px;
+    height: max-content;
+    background: #ffffff;
+    z-index: 3;
+    left: 0;
+  }
+  
+  .menu ul .submenu_list li {
+    padding: 0px;
+    border-top: 0.5px solid #000000;
+  }
+  .menu ul .submenu_list li:last-child {
+    padding-bottom: 0px;
+  }
+  .menu ul .submenu_list li a {
+    font-family: var(--work-sans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    white-space: nowrap;
+    color: #000000;
+    text-transform: capitalize;
+    padding: 4px 5px 4px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .active a {
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+  }
+  .active {
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+  }
+  /* search bar style */
+  
+  .search_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.5px solid #ffffff;
+    border-radius: 25px;
+    position: relative;
+    width: 239.42px;
+    height: 25.72px;
+    margin-left: 94px;
+  }
+  
+  .search_bar input {
+    border-radius: 10px;
+    background: none;
+    color: #ffff;
+    font-family: var(--work-sans);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.2556px;
+    line-height: 20px;
+    margin-left: 4.18%;
+    margin-right: 67.84%;
+  }
+  
+  .search_bar button {
+    background: none;
+  }
+  
+  .search_bar button svg {
+    color: #ffff;
+    width: 17.44px;
+    height: 18.49px;
+    position: absolute;
+    left: 88.44%;
+    right: 4.27%;
+    top: 14.05%;
+    bottom: 14.04%;
+  }
+  
+  /* user check out style */
+  
+  .usercheckout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+  }
+  
+  .usercheckout a {
+    font-family: var(--work-sans);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.2556px;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
+  
+  .iconContainer {
+    position: relative;
+  }
+  
+  .iconContainer .cart_icons svg {
+    color: #ffff;
+    width: 30.01px;
+    height: 25.44px;
+    cursor: pointer;
+  }
+  
+  .items_count {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background: linear-gradient(180deg, #ff223e 0%, #b5182c 100%);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+  }
+  
+  .items_count span {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8.29482px;
+    line-height: 10px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    overflow: hidden;
+    transition: width 0.3s ease, transform 0.3s ease;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.421);
+    transform: translateX(100%);
+  }
+  
+  .drawer.open {
+    width: 100%;
+    transform: translateX(0);
+  }
+  
+  .drawer_inner {
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 100%;
+    z-index: 99999999999;
+  }
+  
+  .drawr_container {
+    background: #000000;
+    width: 348px;
+    height: 100%;
+    margin-left: auto;
+  }
+  
+  .drawerContent {
+    padding: 0px 37px;
+    margin-left: auto;
+  }
+  
+  .drawer_header {
+    display: flex;
+    align-items: center;
+    padding: 12px 17px 22px 24px;
+    margin-left: auto;
+  }
+  .drawr_container .drawer_header button span {
+    color: #fff;
+  }
+  .drawr_container .drawer_header button svg {
+    fill: #fff;
+    font-weight: 900;
+    font-size: 21px;
+  }
+  .drawer_header h1 {
+    font-family: var(--ford-script);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48.6899px;
+    line-height: 52px;
+    color: #ffffff;
+  }
+  
+  .drawer_header button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 67px;
+    height: 27px;
+    border: 0.782938px solid #ffffff;
+    border-radius: 2.14853px;
+    position: relative;
+    top: 7px;
+    right: -20px;
+  }
+  .cart_items > h2:empty {
+    display: none;
+  }
+  .cart_items h2 {
+    text-align: center;
+    padding-bottom: 14px;
+  }
+  .mobo_right_box {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .trigger_button_box {
+    display: none;
+  }
+  
+  .mobile_row {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 12px;
+    transition: all 0.3s ease;
+  }
+  .mobile_row:hover {
+    transform: scale(1.02);
+  }
+  .mobile_column {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+  .click_here {
+    width: 190px;
+    height: 58px;
+    filter: drop-shadow(0 4px 6px rgb(0 0 0 / 0.3));
+    transition: transform 0.3s ease;
+  }
+  .click_here:hover {
+    transform: scale(1.05);
+  }
+  .payment_ico {
+    width: 107px;
+    height: 23px;
+  }
+  .payment_text {
+    font-size: 17.39px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  .hide_mobile {
+    display: inherit;
+  }
+  .hide_desktop {
+    display: none;
+  }
+  .bitcoin_title {
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-width: 1199px) {
+    .bitcoin_title {
+      padding: 0px 0px;
+    }
+    .search_bar {
+      margin-left: 0px;
+    }
+    .hide_mobile {
+      display: none;
+    }
+    .hide_desktop {
+      display: inherit;
+    }
+  
+    .payment_text {
+      font-size: 13.68px;
+    }
+    .bitcoin_header {
+      font-size: 22px;
+      margin-top: 12px;
+      letter-spacing: 2px;
+    }
+    .payment_ico {
+      width: 84px;
+      height: 18px;
+    }
+    .click_here {
+      width: 149px;
+      height: 45px;
+    }
+  
+    .mobile_row {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 12px;
+    }
+    .mobile_column {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 0 8px;
+    }
+  
+    .usercheckout a {
+      display: none;
+    }
+  
+    .nav_main {
+      gap: 20px;
+    }
+  
+    .logo_brand_box {
+      width: 120px;
+      position: relative;
+      left: -30px;
+    }
+  
+    .menu ul li:not(:first-child),
+    .menu ul li:not(:last-child) {
+      padding-right: 15px;
+    }
+  
+    .menu ul li a {
+      font-size: 14px;
+      line-height: 17px;
+      white-space: nowrap;
+    }
+  }
+  
+  /* mobile navigation style start here */
+  .mobile_navigation_wrapper_main {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    left: auto;
+    right: 0;
+    background: rgba(0, 0, 0, 0.421);
+    z-index: 999;
+    transition: all 350ms ease 0s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mobile_navigation_wrapper {
+    max-width: 348px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    min-width: 320px;
+    right: -100%;
+    background: #000;
+    z-index: 999;
+    padding: 10px 25px 25px;
+    transition: all 350ms ease 0s;
+  }
+  
+  .mobile_navigation_wrapper .menu {
+    display: block;
+  }
+  
+  .mobile_navigation_wrapper .logo_brand_box {
+    margin-bottom: 25px;
+  }
+  
+  .mobile_navigation_wrapper .menu ul li:not(:first-child) {
+    padding-left: 0;
+  }
+  
+  .mobile_navigation_wrapper .search_bar {
+    padding: 0;
+    margin-bottom: 35px;
+    left: 0;
+    display: flex;
+  }
+  
+  .mobile_navigation_wrapper .menu ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .mobile_navigation_wrapper .menu ul li {
+    position: relative;
+    width: 100%;
+  }
+  
+  .mobile_navigation_wrapper .menu ul li a {
+    font-size: 16px;
+    line-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .mobile_navigation_wrapper .menu ul li button {
+    font-size: 16px;
+    line-height: 17px;
+    white-space: nowrap;
+  }
+  
+  .mobile_navigation_wrapper .menu ul .submenu_list {
+    position: relative;
+    display: block;
+    min-width: 99px;
+    height: max-content;
+    background: transparent;
+    z-index: 3;
+    left: 20px;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .mobile_navigation_wrapper .menu ul .submenu_list li {
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 0.5px solid #000000;
+    width: 100%;
+  }
+  
+  .mobile_navigation_wrapper .menu ul .submenu_list li a {
+    font-family: var(--work-sans);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  .mobile_menu_top_box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .mobile_menu_top_box .close_button_trigger {
+    font-size: 13px;
+    font-weight: 400;
+    background-color: transparent;
+    color: #000;
+    padding: 3px;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 61px;
+    height: 26px;
+    border-radius: 5px;
+  }
+  @media screen and (max-width: 1280px) and (min-width: 1200px) {
+    .menu ul li a {
+      font-size: 16px;
+      line-height: 19px;
+    }
+    .search_bar {
+      margin-left: 24px;
+    }
+  
+    .menu ul li:not(:first-child) {
+      padding-left: 15px;
+    }
+  
+    .menu ul li:not(:last-child) {
+      padding-right: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .mobile_navigation_wrapper_main.open .mobile_navigation_wrapper {
+      right: 0;
+    }
+    .mobile_navigation_wrapper_main.open {
+      opacity: 1;
+      visibility: visible;
+    }
+    .bitcoin_header {
+      font-size: 18px;
+      margin-top: 7px;
+      line-height: 26px;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+    .payment_ico {
+      width: 65px;
+      height: 14px;
+    }
+    .click_here {
+      width: 110px;
+      height: 35px;
+    }
+    .payment_text {
+      font-size: 12px;
+    }
+    .mobile_row {
+      padding: 10px;
+    }
+    .mobile_column {
+      gap: 10px;
+    }
+  
+    .trigger_button_box {
+      display: block;
+    }
+  
+    .nav_main {
+      gap: 30px;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .search_bar {
+      max-width: 320px;
+      width: 100%;
+      height: 36px;
+      margin-left: 0px;
+      position: relative;
+      left: -35px;
+    }
+  
+    .search_bar input {
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 15px;
+    }
+  
+    .search_bar button svg {
+      top: 7px;
+    }
+  
+    .usercheckout {
+      margin-left: 0;
+    }
+  
+    .main_wrapper {
+      gap: 30px;
+    }
+  
+    .user_Account h6 a {
+      white-space: nowrap;
+    }
+    .navigation {
+      margin-top: 0px;
+      transition: all 650ms ease 0s;
+    }
+    .header {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .main_wrapper {
+      gap: 15px;
+      align-items: center;
+      flex-direction: column-reverse;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  
+    .text_wrapper {
+      margin-top: 0px;
+      padding-top: 10px;
+      gap: 6px;
+    }
+  
+    .user_Account {
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
+      margin-left: auto;
+    }
+  
+    .search_bar {
+      display: none;
+    }
+  
+    .logo_brand_box {
+      width: 120px;
+      position: relative;
+      left: -34px;
+    }
+  
+    .text_wrapper button {
+      margin-right: 12px;
+    }
+  
+  }
+  
